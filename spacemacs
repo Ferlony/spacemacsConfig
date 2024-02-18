@@ -74,7 +74,13 @@ This function should only modify configuration layer settings."
              ;;python-formatter 'yapf
              )
 
+
+     (c-c++ :variables
+            c-c++-backend 'lsp-clangd
+            )
+
      )
+
 
 
    ;; List of additional packages that will be installed without being wrapped

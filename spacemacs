@@ -60,10 +60,10 @@ This function should only modify configuration layer settings."
      eaf
      treemacs
      neotree
-     tabs
+     ;; tabs
 
-     (tabs :variables
-           tabs-selected-tab-bar 'over)
+     ;; (tabs :variables
+     ;;       tabs-selected-tab-bar 'over)
 
      ;; a bunch of other stuff
      (python :variables
